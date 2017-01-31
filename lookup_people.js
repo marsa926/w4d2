@@ -21,8 +21,8 @@ client.connect((err) => {
     if (err){
       return console.error("error running query", err);
     }
-
-    console.log(result.rows);
+    var output = result.rows[0];
+    console.log(`- ${output["id"]}: ${output["first_name"]} ${output["last_name"]}, born ${output["birthdate"].toLocaleDateString()}`);
     client.end();
   });
 });

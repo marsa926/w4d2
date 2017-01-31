@@ -1,0 +1,8 @@
+{
+  "user": "hztuiyuuywakti",
+  "password": "eb56e57b5cbeb2d0bb4847e425d6b7d87a4960ed7443667a7a5526fc604c1e19",
+  "database": "dbboo0h9ji72tt",
+  "hostname": "ec2-23-21-238-246.compute-1.amazonaws.com",
+  "port": 5432,
+  "ssl": true
+}
